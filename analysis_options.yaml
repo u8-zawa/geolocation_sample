@@ -1,2 +1,6 @@
 # https://pub.dev/packages/pedantic_mono
 include: package:pedantic_mono/analysis_options.yaml
+
+linter:
+  rules:
+    lines_longer_than_80_chars: faulse
