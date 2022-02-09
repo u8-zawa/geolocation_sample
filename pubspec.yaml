@@ -1,0 +1,20 @@
+name: geolocation_sample
+description: 位置情報を取得するサンプルです。
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic_mono: any
+
+flutter:
+  uses-material-design: true
